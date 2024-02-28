@@ -1,0 +1,6 @@
+name = input('What is your name: ')
+greating = f'Hello {name}'
+print(greating)
+inp1 = str(input('Write the word of the sentence which you want to reverse: '))
+print("Original: ",inp1)
+print(inp1[::-1])
