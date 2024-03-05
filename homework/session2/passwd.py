@@ -1,5 +1,5 @@
-
-import re #import librery (re)
+import re
+#import librery (re)
 flag = 0
 passwd = input("enter the password: ") #get the input as variable 
 if not re.search('[a-z]', passwd) : #Check if (passwd) contain needed characters
